@@ -19,8 +19,6 @@ jobs:
             image: ghcr.io/23flash/aur
           - dockerfile: ./distrobox/default/Dockerfile
             image: ghcr.io/23flash/default
-          - dockerfile: ./distrobox/ide/Dockerfile
-            image: ghcr.io/23flash/ide
     permissions:
       contents: read
       packages: write
