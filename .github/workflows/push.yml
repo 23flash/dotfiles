@@ -2,9 +2,8 @@ name: Build & publish
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  
+  schedule:
+    - cron:  '30 5 * * 1'
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
