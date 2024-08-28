@@ -24,7 +24,9 @@ jobs:
           - dockerfile: ./distrobox/desktop/ide/Dockerfile
             image: ghcr.io/23flash/ide
           - dockerfile: ./distrobox/desktop/zed/Dockerfile
-            image: ghcr.io/23flash/zed      
+            image: ghcr.io/23flash/zed
+          - dockerfile: ./podman/kasmsuse/Dockerfile
+            image: ghcr.io/23flash/kasmsuse      
     permissions:
       contents: read
       packages: write
