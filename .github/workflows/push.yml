@@ -19,6 +19,12 @@ jobs:
             image: ghcr.io/23flash/aur
           - dockerfile: ./distrobox/default/Dockerfile
             image: ghcr.io/23flash/default
+          - dockerfile: .distrobox/desktop/code/Dockerfile
+            image: ghcr.io/23flash/code
+          - dockerfile: .distrobox/desktop/ide/Dockerfile
+            image: ghcr.io/23flash/ide
+          - dockerfile: .distrobox/desktop/zed/Dockerfile
+            image: ghcr.io/23flash/zed      
     permissions:
       contents: read
       packages: write
