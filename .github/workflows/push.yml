@@ -2,8 +2,15 @@ name: Build & publish
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - distrobox/default/**
+      - dotfiles/distrobox/aur/**
+      - podman/kasmsuse/**
+      - distrobox/desktop/code/**
+      - distrobox/desktop/ide/**
+      - distrobox/desktop/zed/**
   schedule:
-    - cron:  '30 5 * * 1'
+    - cron:  '30 5 * * 1,3,6'
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
