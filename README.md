@@ -6,4 +6,4 @@
 `Podman`
 
 
-`[zsh config](podman/podman.md)`
+[`zsh config`](podman/podman.md)
