@@ -1,4 +1,5 @@
-[`home`](README.md)
+[`home`](https://github.com/23flash/dotfiles)
+
 `install oh-my-zsh`
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

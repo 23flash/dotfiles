@@ -1,1 +1,1 @@
-[`home`](README.md)
+[`home`](https://github.com/23flash/dotfiles)
