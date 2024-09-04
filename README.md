@@ -1,9 +1,8 @@
+## Content
+- `distrobox`
 
-`Distrobox`
+- `github workflows`
 
-`Github Workflows`
+- [`Podman`](podman/podman.md)
 
-`Podman`
-
-
-[`zsh config`](podman/podman.md)
+- [`zsh config`](config/zsh/install.md)
